@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "dashboard - python"
+version = "0.1.0"
+description = "Dashboard with Python"
+authors = ["Akshat <akshat.pande@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.34.0"
+gspread = "^6.1.2"
+oauth2client = "^4.1.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
