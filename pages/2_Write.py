@@ -37,7 +37,7 @@ if option=='All':
             with st.expander(item.Title + ' ----- [' + item.Category + ']'):
                 st.write(item.Description)
         with col2:
-            st.link_button('Medium', item.Medium)
+            st.link_button('Link', item.Link)
 
 if option=='Article':
     for item in df.itertuples():
@@ -47,7 +47,7 @@ if option=='Article':
                 with st.expander(item.Title + ' ----- [' + item.Category + ']'):
                     st.write(item.Description)
             with col2:
-                st.link_button('Medium', item.Medium)
+                st.link_button('Link', item.Link)
 
 if option=='Poetry':
     for item in df.itertuples():
@@ -57,7 +57,7 @@ if option=='Poetry':
                 with st.expander(item.Title + ' ----- [' + item.Category + ']'):
                     st.write(item.Description)
             with col2:
-                st.link_button('Medium', item.Medium)
+                st.link_button('Link', item.Link)
 
 if option=='Odyssey':
     for item in df.itertuples():
@@ -67,7 +67,7 @@ if option=='Odyssey':
                 with st.expander(item.Title + ' ----- [' + item.Category + ']'):
                     st.write(item.Description)
             with col2:
-                st.link_button('Medium', item.Medium)
+                st.link_button('Link', item.Link)
 
 if option=='Newsletter':
     for item in df.itertuples():
@@ -77,7 +77,7 @@ if option=='Newsletter':
                 with st.expander(item.Title + ' ----- [' + item.Category + ']'):
                     st.write(item.Description)
             with col2:
-                st.link_button('Medium', item.Medium)
+                st.link_button('Link', item.Link)
 
 if option=='Quotes':
     for item in df.itertuples():
@@ -87,4 +87,4 @@ if option=='Quotes':
                 with st.expander(item.Title + ' ----- [' + item.Category + ']'):
                     st.write(item.Description)
             with col2:
-                st.link_button('Medium', item.Medium)
+                st.link_button('Link', item.Link)
