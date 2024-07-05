@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import gspread
 import numpy as np
 from oauth2client.service_account import ServiceAccountCredentials
 import time
