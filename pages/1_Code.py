@@ -1,18 +1,17 @@
 import streamlit as st
 import pandas as pd
+import gspread
 import numpy as np
 from oauth2client.service_account import ServiceAccountCredentials
 import time
 from datetime import datetime
 import json
 
-st.sidebar.title("Code")
-st.title("Code - Dashboard")
+st.sidebar.title("Write")
+st.title("Write - Dashboard")
 st.caption("PandeAkshat")
 
-
-option = st.sidebar.radio(" ", ("All", "Python", "Data Science", "Blockchain", "Web Development", "Rust"))
-
+option = st.sidebar.radio(" ", ("All", "Article", "Poetry", "Odyssey", "Newsletter", "Quotes"))
 
 
 g_credentials = st.secrets["google_auth"]
