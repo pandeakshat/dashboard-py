@@ -35,7 +35,7 @@ if option=='All':
     for item in df.itertuples():
         col1, col2,col3 = st.columns([4,1,1])
         with col1:
-            with st.expander(item.Title + 'currently' + item.Status + ' ----- [' + item.Category + ']'):
+            with st.expander(item.Title + ' ----- ' + item.Status + ' ----- [' + item.Category + ']'):
                 st.write(item.Description)
         with col2:
             st.link_button('Review', item.Review)

@@ -9,7 +9,7 @@ import json
 
 st.sidebar.title("Main")
 st.title("Main - Dashboard")
-st.caption("PandeAkshat")
+st.caption("Akshat Pande (pandeakshat)")
 
 
 st.header("A centralized structure for collection of everything that I will build.")
@@ -30,6 +30,7 @@ st.link_button("Status Window", "https://status.pandeakshat.com")
 st.link_button("Portfolio", "https://pandeakshat.com")
 
 st.sidebar.caption("Created by:")
+st.sidebar.error("Akshat Pande (pandeakshat)")
 st.sidebar.link_button("Github", "https://github.com/pandeakshat")
 
 
