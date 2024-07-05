@@ -47,7 +47,7 @@ if option=='Manga/Manhwa':
         if item.Category=='Manga/Manhwa':
             col1, col2,col3 = st.columns([4,1,1])
             with col1:
-                with st.expander(item.Title + 'currently' + item.Status + ' ----- [' + item.Category + ']'):
+                with st.expander(item.Title + ' ----- ' + item.Status + ' ----- [' + item.Category + ']'):
                     st.write(item.Description)
             with col2:
                 st.link_button('Review', item.Review)
@@ -59,7 +59,7 @@ if option=='Anime':
         if item.Category=='Anime':
             col1, col2,col3 = st.columns([4,1,1])
             with col1:
-                with st.expander(item.Title + 'currently' + item.Status + ' ----- [' + item.Category + ']'):
+                with st.expander(item.Title + ' ----- ' + item.Status + ' ----- [' + item.Category + ']'):
                     st.write(item.Description)
             with col2:
                 st.link_button('Review', item.Review)
@@ -70,7 +70,7 @@ if option=='TV Show':
         if item.Category=='TV Show':
             col1, col2,col3 = st.columns([4,1,1])
             with col1:
-                with st.expander(item.Title + 'currently' + item.Status + ' ----- [' + item.Category + ']'):
+                with st.expander(item.Title + ' ----- ' + item.Status + ' ----- [' + item.Category + ']'):
                     st.write(item.Description)
             with col2:
                 st.link_button('Review', item.Review)
@@ -81,7 +81,7 @@ if option=='Movie':
         if item.Category=='Movie':
             col1, col2,col3 = st.columns([4,1,1])
             with col1:
-                with st.expander(item.Title + 'currently' + item.Status + ' ----- [' + item.Category + ']'):
+                with st.expander(item.Title + ' ----- ' + item.Status + ' ----- [' + item.Category + ']'):
                     st.write(item.Description)
             with col2:
                 st.link_button('Review', item.Review)
